@@ -42,7 +42,7 @@ query_image = gfile.FastGFile(query_image_path, 'rb').read()
 # target_image_path = os.path.join(work_dir, 'cat.1001.jpg') # 16.99647
 # target_image_path = os.path.join(work_dir, 'cropped_panda.jpg') # 20.412373
 # My Data set
-target_image_path = os.path.join(work_dir, 'DJI_0394-1.JPG')
+target_image_path = os.path.join(work_dir, 'DJI_0395.JPG')
 
 target_image = gfile.FastGFile(target_image_path, 'rb').read()
 
