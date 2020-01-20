@@ -29,7 +29,7 @@ bottleneck, image, resized_input = (
     tf.import_graph_def(
         graph_defnition,
         name='',
-        return_elements=['pool_3/_reshape:1',
+        return_elements=['pool_3/_reshape:0',
                          'DecodeJpeg/contents:0',
                          'ResizeBilinear:0'])
 )
