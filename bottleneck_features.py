@@ -55,4 +55,4 @@ print(target_feature)
 
 # Calcule la distancia euclidiana entre las caracteristicas  
 dist = np.linalg.norm(np.asarray(query_feature) - np.asarray(target_feature))
-print(dist)
+print("Distancia euclidiana entre las caracteristicas:  ", dist)
