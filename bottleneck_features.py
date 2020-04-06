@@ -36,12 +36,14 @@ bottleneck, image, resized_input = (
 
 # Cargue las imagenes en memoria
 # query_image_path = os.path.join(work_dir, 'cat.1000.jpg')
-query_image_path = os.path.join(work_dir, 'DJI_0397.JPG')
+# query_image_path = os.path.join(work_dir, 'DJI_0397.JPG')
+query_image_path = os.path.join(work_dir, 'finalResult.png')
 query_image = gfile.FastGFile(query_image_path, 'rb').read()
 
 # target_image_path = os.path.join(work_dir, 'cat.1001.jpg') # 16.99647
 # target_image_path = os.path.join(work_dir, 'cropped_panda.jpg') # 20.412373
-target_image_path = os.path.join(work_dir, 'DJI_0698.JPG') # 12.741378, 11.564167
+# target_image_path = os.path.join(work_dir, 'DJI_0698.JPG') # 12.741378, 11.564167
+target_image_path = os.path.join(work_dir, 'finalResult2.png')
 target_image = gfile.FastGFile(target_image_path, 'rb').read()
 
 # Funcion que extrae las caracteristicas bottleneck de la image_data usando la sesion
