@@ -47,7 +47,8 @@ print (query_image_path)
 # target_image_path = os.path.join(work_dir, 'cropped_panda.jpg') # 20.412373
 # target_image_path = os.path.join(work_dir, 'DJI_0698.JPG') # 12.741378, 11.564167
 # target_image_path = os.path.join(work_dir, 'finalResult2.jpg') #11.793492
-target_image_path = os.path.join(work_dir, 'DJI_0331.JPG') #
+# target_image_path = os.path.join(work_dir, 'DJI_0331.JPG') #15.96557
+target_image_path = os.path.join(work_dir, 'compare_transparent_mosaic_group1.tif') #
 target_image = gfile.FastGFile(target_image_path, 'rb').read()
 print (target_image_path)
 
